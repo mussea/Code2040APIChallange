@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D023DEA61BF59F1400F18AB4 /* StageOne.m in Sources */ = {isa = PBXBuildFile; fileRef = D023DEA51BF59F1400F18AB4 /* StageOne.m */; };
+		D023DEA91BF5A02700F18AB4 /* StageTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = D023DEA81BF5A02700F18AB4 /* StageTwo.m */; };
+		D023DEAF1BF5B3D000F18AB4 /* StageThree.m in Sources */ = {isa = PBXBuildFile; fileRef = D023DEAE1BF5B3D000F18AB4 /* StageThree.m */; };
+		D023DEB21BF5BDF600F18AB4 /* StageFour.m in Sources */ = {isa = PBXBuildFile; fileRef = D023DEB11BF5BDF600F18AB4 /* StageFour.m */; };
 		D02891131BF309E00003267C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D02891121BF309E00003267C /* main.m */; };
 		D02891161BF309E00003267C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D02891151BF309E00003267C /* AppDelegate.m */; };
-		D02891191BF309E00003267C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02891181BF309E00003267C /* ViewController.m */; };
 		D028911C1BF309E00003267C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D028911A1BF309E00003267C /* Main.storyboard */; };
 		D028911E1BF309E00003267C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D028911D1BF309E00003267C /* Assets.xcassets */; };
 		D02891211BF309E00003267C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D028911F1BF309E00003267C /* LaunchScreen.storyboard */; };
@@ -35,12 +38,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D023DEA41BF59F1400F18AB4 /* StageOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageOne.h; sourceTree = "<group>"; };
+		D023DEA51BF59F1400F18AB4 /* StageOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageOne.m; sourceTree = "<group>"; };
+		D023DEA71BF5A02700F18AB4 /* StageTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageTwo.h; sourceTree = "<group>"; };
+		D023DEA81BF5A02700F18AB4 /* StageTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageTwo.m; sourceTree = "<group>"; };
+		D023DEAD1BF5B3D000F18AB4 /* StageThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageThree.h; sourceTree = "<group>"; };
+		D023DEAE1BF5B3D000F18AB4 /* StageThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageThree.m; sourceTree = "<group>"; };
+		D023DEB01BF5BDF600F18AB4 /* StageFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageFour.h; sourceTree = "<group>"; };
+		D023DEB11BF5BDF600F18AB4 /* StageFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageFour.m; sourceTree = "<group>"; };
 		D028910E1BF309E00003267C /* Code2040.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Code2040.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02891121BF309E00003267C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D02891141BF309E00003267C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D02891151BF309E00003267C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D02891171BF309E00003267C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D02891181BF309E00003267C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D028911B1BF309E00003267C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D028911D1BF309E00003267C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02891201BF309E00003267C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,8 +112,14 @@
 			children = (
 				D02891141BF309E00003267C /* AppDelegate.h */,
 				D02891151BF309E00003267C /* AppDelegate.m */,
-				D02891171BF309E00003267C /* ViewController.h */,
-				D02891181BF309E00003267C /* ViewController.m */,
+				D023DEA41BF59F1400F18AB4 /* StageOne.h */,
+				D023DEA51BF59F1400F18AB4 /* StageOne.m */,
+				D023DEA71BF5A02700F18AB4 /* StageTwo.h */,
+				D023DEA81BF5A02700F18AB4 /* StageTwo.m */,
+				D023DEAD1BF5B3D000F18AB4 /* StageThree.h */,
+				D023DEAE1BF5B3D000F18AB4 /* StageThree.m */,
+				D023DEB01BF5BDF600F18AB4 /* StageFour.h */,
+				D023DEB11BF5BDF600F18AB4 /* StageFour.m */,
 				D028911A1BF309E00003267C /* Main.storyboard */,
 				D028911D1BF309E00003267C /* Assets.xcassets */,
 				D028911F1BF309E00003267C /* LaunchScreen.storyboard */,
@@ -270,9 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02891191BF309E00003267C /* ViewController.m in Sources */,
+				D023DEB21BF5BDF600F18AB4 /* StageFour.m in Sources */,
+				D023DEAF1BF5B3D000F18AB4 /* StageThree.m in Sources */,
 				D02891161BF309E00003267C /* AppDelegate.m in Sources */,
 				D02891131BF309E00003267C /* main.m in Sources */,
+				D023DEA61BF59F1400F18AB4 /* StageOne.m in Sources */,
+				D023DEA91BF5A02700F18AB4 /* StageTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +514,7 @@
 				D028913D1BF309E00003267C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D028913E1BF309E00003267C /* Build configuration list for PBXNativeTarget "Code2040Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +523,7 @@
 				D02891401BF309E00003267C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D02891411BF309E00003267C /* Build configuration list for PBXNativeTarget "Code2040UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +532,7 @@
 				D02891431BF309E00003267C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
